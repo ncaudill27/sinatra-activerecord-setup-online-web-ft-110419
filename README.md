@@ -177,8 +177,7 @@ using `5.2`, so all the examples here will show `ActiveRecord::Migration[5.2]`.
 This version may differ depending on the lab. If this number does not match
 the version in your `Gemfile.lock`, your migration will cause an error.
 
-Our `up` method should create our table with `name` and `breed` columns. Our
-down method should drop the table.
+Our `up` method should create our table with `name` and `breed` columns. Our down method should drop the table.
 
 ```ruby
 class CreateDogs < ActiveRecord::Migration[5.2]
